@@ -38,5 +38,60 @@
         </ul>
       </nav>
     </header>
+    <main class="max-w-6xl mx-auto px-4 py-12 space-y-24">
+      <section
+        id="about"
+        class="min-h-[60vh] flex flex-col justify-center items-start"
+      >
+        <span class="text-slate-100 font-semibold mb-2">Hello, my name</span>
+        <h2
+          class="text-4xl md:text-6xl font-extrabold mb-4 hover:text-slate-300 transition"
+        >
+          Arie Ardinata Kusuma
+        </h2>
+        <h2 class="text-xl md:text-6xl font-semibold mb-4">
+          IT Student & Cybersecurity enthusiast
+        </h2>
+        <p class="text-slate-400 max-w-xl text-sm mb-6">
+          I'm an ordinary IT Student at Faculty of Computer Science and
+          Technology Information, Universitas Sumatera Utara
+        </p>
+        <a
+          href="#projects"
+          class="px-6 py-3 bg-slate-400 hover:bg-slate-300 rounded-lg font-medium transition"
+          >Look at my projects!</a
+        >
+      </section>
+
+      <!-- Section Proyek (Grid Layout) -->
+      <section id="projects">
+        <h3
+          class="text-2xl font-bold mb-8 border-b border-slate-800 pb-2 text-center"
+        >
+          Proyek Pilihan
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Card Proyek 1 -->
+          <article
+            class="bg-slate-800/50 border border-slate-700/50 rounded-xl p-6 flex flex-col justify-between"
+          >
+            <div>
+              <h4 class="text-xl font-semibold mb-2">Medan Explore</h4>
+              <p class="text-slate-400 text-sm mb-4">
+                Mini college's group project-based task, build a website about
+                exploring Medan.
+              </p>
+            </div>
+            <div class="flex flex-wrap gap-2 text-xs font-mono text-blue-300">
+              <span class="bg-blue-950/80 px-2.5 py-1 rounded">HTML</span>
+              <span class="bg-blue-950/80 px-2.5 py-1 rounded"
+                >Tailwind CSS</span
+              >
+              <span class="bg-blue-950/80 px-2.5 py-1 rounded">JavaScript</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
